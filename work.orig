@@ -1,4 +1,6 @@
 content1
 <<<<<<< HEAD
-content0, content3
+content0
+=======
+content3
 >>>>>>> o3
