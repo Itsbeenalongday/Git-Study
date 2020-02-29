@@ -23,4 +23,19 @@
   + remote repository의 내용을 그대로 local repository로 가져오는 명령
 
 
-## git에 대해 알게된 정보
+## 명령 예시
+```shell
+$ git pull
+$ git add .
+$ git commit -m "v1.0"
+$ git push
+
+$ git branch <branch_name>
+$ git checkout <branch_name>
+$ git checkout <commit_unique_number>
+
+$ git remote add origin <remote repository http address>
+$ git remote remove origin
+
+$ git clone <remote repository http address> <optinal--> <local repository name>
+```
