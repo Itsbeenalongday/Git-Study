@@ -5,7 +5,9 @@
   2. version 관리
   3. backup
 <hr/>
+
 ## terminology
+  
   1. working tree - 파일을 수정하는 공간
   2. staging area - 버전을 만들려고 하는 파일들
   3. repository - 만들어진 버전
@@ -15,6 +17,7 @@
   이것을 버전으로 만들려면 staging area의 파일들을 버전으로 만들고, 
   repository에 올리는 일련의 작업의 연속이 git이다.
 <hr/>
+
 ## 주요 명령
 
 * `add`
@@ -41,6 +44,7 @@
 * `status`
   + staging area에 있는 파일들을 볼 수 있는 명령
 <hr/>
+
 ## 명령 예시
 ```shell
 $ git pull
