@@ -65,4 +65,30 @@ $ git clone <remote repository http address> <optinal--> <local repository name>
 ```
 <hr/>
 
-## git 유용 옵션
+## Maintain Submodule
+
++ directory structure
+```
+Parent_dir
+|
+|--submodule1
+...
+```
++ update submodule
+```
+$ cd submodule
+
+work ...
+
+$ sh git.sh # use my script
+
+$ cd ..
+
+$ git add .
+
+$ git commit -m "submodule change"
+
+$ git push
+```
+**즉, 서브모듈에서 작업한 내용을 푸쉬하면 서브모듈의 origin으로 반영되고,**   
+**부모 레포지토리에서는 반영 이전의 상태이기때문에 부모 레포지토리도 푸쉬해야한다.**
